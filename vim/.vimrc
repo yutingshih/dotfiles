@@ -5,7 +5,7 @@ set showcmd                             " show imcomplete command at the bottom
 " [User interface options]
 set laststatus=2                        " always display the status bar (0: close, 1: if buffers open, 2: always open)
 set wildmenu                            " display command line's tab complete options as a menu
-colorscheme sorbet                      " change colorscheme
+"colorscheme sorbet                      " change colorscheme
 "colorscheme wildcharm                  " change colorscheme
 set cursorline                          " highlight the line currently under cursor
 set number                              " show line number on the side bar
@@ -38,3 +38,10 @@ set confirm                             " display a confirmation dialog when clo
 
 " [Status line]
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
+
+" Vim-Plug
+call plug#begin()
+Plug 'cocopon/iceberg.vim'
+call plug#end()
+
+colorscheme iceberg
