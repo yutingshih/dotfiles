@@ -42,6 +42,8 @@ set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
 " Vim-Plug
 call plug#begin()
 Plug 'cocopon/iceberg.vim'
+Plug 'preservim/nerdtree'
 call plug#end()
 
+set background=dark
 colorscheme iceberg
