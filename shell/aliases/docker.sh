@@ -9,3 +9,7 @@ alias dr='docker run'
 alias drm='docker rm'
 alias drmi='docker rmi'
 alias dl='docker logs'
+
+dockerd() {
+    systemctl --user $1 docker-desktop.service
+}

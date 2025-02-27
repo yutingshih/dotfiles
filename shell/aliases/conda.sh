@@ -1,4 +1,5 @@
 alias cda='conda activate'
+alias cdc='conda create -n'
 alias cdd='conda deactivate'
 alias cde='conda env list'
 alias cdi='conda install -y'
